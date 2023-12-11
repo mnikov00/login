@@ -1,0 +1,31 @@
+/* Table.css */
+
+/* Container styling */
+div {
+    margin: 20px;
+  }
+  
+  /* Table styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #563d7c; /* Set border color to 563d7c */
+    margin-top: 20px; /* Add some margin at the top for better spacing */
+  }
+  
+  /* Header cell styling */
+  th {
+    background-color: #563d7c; /* Set header background color to 563d7c */
+    color: #ffffff; /* Set header text color to white */
+    border: 2px solid #563d7c; /* Set border color to 563d7c */
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Data cell styling */
+  td {
+    border: 2px solid #563d7c; /* Set border color to 563d7c */
+    padding: 8px;
+    text-align: left;
+  }
+  

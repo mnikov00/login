@@ -1,0 +1,71 @@
+/* Apply a consistent color scheme */
+.dashboard {
+  display: flex;
+  padding: 20px;
+  background-color: #563d7c; /* A darker shade of purple */
+}
+
+.account-details {
+  flex: 1;
+  background-color: #2f2144; /* Darker Purple */
+  padding: 20px;
+  border-radius: 8px;
+  color: #fff; /* White text color */
+}
+
+.account-details h1,
+.account-details p,
+.account-details h2 {
+  margin: 0; /* Remove default margins for a cleaner look */
+}
+
+.user-info {
+  cursor: pointer;
+}
+
+.user-details-box {
+  display: none;
+  margin-top: 10px;
+}
+
+.user-info:hover .user-details-box {
+  display: block;
+}
+
+/* Improve the boxes section */
+.boxes {
+  display: flex;
+  flex-direction: column; /* Stack boxes vertically */
+  gap: 20px;
+  flex: 2;
+}
+
+.box {
+  background-color: #fff; /* White background for boxes */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.box:hover {
+  transform: scale(1.05); /* Scale up the box on hover */
+}
+
+/* Add a big header for the entire dashboard */
+.dashboard h1 {
+  color: #fff; /* White text color */
+  font-size: 36px; /* Increase font size for the header */
+  margin-bottom: 10px; /* Add spacing below the header */
+}
+
+/* Style the headers in the account details section */
+.account-details h1 {
+  font-size: 24px; /* Adjust font size for the header */
+  margin-bottom: 10px; /* Add spacing below the header */
+}
+
+.account-details h2 {
+  font-size: 20px; /* Adjust font size for subheadings */
+  margin-bottom: 8px; /* Add spacing below subheadings */
+}
